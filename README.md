@@ -10,4 +10,4 @@ Official code and data of the paper "tba".
 
 ## Data
 
-Using the files tba and tba we aim to test our model (see Video tba).
+Using the files tba and tba we aim to test and present our model (see Video tba).
