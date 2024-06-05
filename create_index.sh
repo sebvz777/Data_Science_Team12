@@ -1,4 +1,4 @@
-curl -X PUT "localhost:9200/documents" -H 'Content-Type: application/json' -d'
+curl.exe -X PUT "localhost:9200/documents" -H 'Content-Type: application/json' -d'
 {
   "settings": {
     "number_of_shards": 1,
