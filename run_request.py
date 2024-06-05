@@ -81,7 +81,9 @@ def get_best_answer(question):
             if best_answer.answer in content:
                 print(u"Source: {}".format(source))
 
+    return best_answer.answer, source
+
 if __name__ == "__main__":
     #print(search_elasticsearch(query="Ansprechpartner"))
     #question = input("Ask a question: ")
-    answer = get_best_answer("Wer ist der Ansprechpartner?")
+    answer, source  = get_best_answer("Wer ist der Ansprechpartner?")
