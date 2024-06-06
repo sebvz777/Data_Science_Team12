@@ -15,3 +15,19 @@ Using the files tba and tba we aim to test and present our model (see Video tba)
 ## Installation
 
 tba
+
+## Folder Structure
+
+/project_root
+├── src/
+│   ├── pre- and postprocessing\
+|   |   ├── extract_docx.py
+|   |   ├── extract_xlsx.py
+|   |   ├── extract_pdf.py
+|   |   └── extract_png.py
+│   ├── model\
+|   |   ├──
+|   |   └──
+├── tests/
+|   └── tba
+└── README.md
