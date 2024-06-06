@@ -26,8 +26,8 @@ tba
 |   |   ├── extract_pdf.py
 |   |   └── extract_png.py
 │   ├── model\
-|   |   ├──
-|   |   └──
+|   |   ├── Elasticsearch Database
+|   |   └── Azure AI Model
 ├── tests/
 |   └── tba
 └── README.md
