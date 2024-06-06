@@ -26,7 +26,7 @@ tba
 |   |   ├── extract_xlsx.py
 |   |   ├── extract_pdf.py
 |   |   └── extract_png.py
-│   ├── model\
+│   └── model\
 |   |   ├── Elasticsearch Database
 |   |   └── Azure AI Model
 ├── tests/
