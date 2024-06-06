@@ -21,7 +21,7 @@ keywords_responses = [
 
 
 # Funktion zum Extrahieren der Fragen
-def extract_questions(df, keywords):
+def extract_questions_xlsx(df, keywords):
     questions = []
     for index, row in df.iterrows():
         for col in df.columns:
@@ -65,7 +65,7 @@ def get_keywords():
 
 
 # Beispielnutzung
-questions = extract_questions(df, keywords)
+questions = extract_questions_xlsx(df, keywords)
 
 # Beispielantworten
 answers = ["Test2.0"] * len(questions)
@@ -96,3 +96,20 @@ myworkbook.save(file_path)
 
 
 print(f"Fragen wurden erfolgreich extrahiert und Antworten in {output_file_path} gespeichert.")
+
+def fill_out_xlsx(file_path, worksheet, questions, answers, answer_column_idx):
+    answer_column, answer_column_idx = check_keywords_in_header(df, keywords_responses)
+    if not answer_column:
+        answer_column = get_keywords()[0]
+        answer_column_idx = len(df.columns)  # Neue Spalte wird am Ende hinzugefügt
+
+    myworkbook=openpyxl.load_workbook(file_path)
+    worksheet = myworkbook.active
+
+
+    # Antworten einfügen
+    #df_with_answers = insert_answers(df, questions, answers, answer_column)
+    insert_answers(worksheet, questions, answers, answer_column_idx)
+
+    # Datei speichern
+    myworkbook.save(file_path)

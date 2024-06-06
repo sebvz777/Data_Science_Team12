@@ -1,5 +1,6 @@
 import fitz  # PyMuPDF
 import re
+from model.run_request import get_best_answer
 
 # Define common German question words
 german_question_words = [
@@ -46,8 +47,8 @@ def extract_questions_from_pdf(pdf_path):
 
 
 def generate_answer(question):
-    # Generate an answer for the given question (placeholder example)
-    return "This is an answer to: " + question
+    # Generate an answer for the given question
+    return get_best_answer(question)
 
 
 def find_placeholder_positions(page):

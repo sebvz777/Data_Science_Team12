@@ -29,7 +29,7 @@ def convert_doc_to_docx(doc_path):
 
 
 # Function to extract questions from a Word document
-def extract_questions(doc_path, keywords):
+def extract_questions_docx(doc_path, keywords):
     avoid_dups = set()
     doc = Document(doc_path)
     questions = []
@@ -64,7 +64,7 @@ if ".docx" not in original_doc_path:
     original_doc_path = convert_doc_to_docx(original_doc_path2)
 
 # Extract questions from the converted .docx file
-questions = extract_questions(original_doc_path, default_keywords)
+questions = extract_questions_docx(original_doc_path, default_keywords)
 
 # Display the extracted questions
 # for question in questions:
