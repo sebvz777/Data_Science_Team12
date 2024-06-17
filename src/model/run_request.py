@@ -60,12 +60,14 @@ def get_best_answer(question):
             all_hits_content.append(sentence)
             all_hits.append((sentence, source))
 
-        
-
-    input = qna.AnswersFromTextOptions(
-        question=question,
-        text_documents=all_hits_content
-    )
+    
+    if all_hits_content:
+        input = qna.AnswersFromTextOptions(
+            question=question,
+            text_documents=all_hits_content
+        )
+    else:
+        return "No Documents regarding that Question found."
 
     if (all_hits):
         output = qa_client.get_answers_from_text(input, language="de")
@@ -80,6 +82,9 @@ def get_best_answer(question):
         for (content, source) in all_hits:
             if best_answer.answer in content:
                 print(u"Source: {}".format(source))
+
+    if best_answer.confidence < 0.2:
+        return "No answer with high enough confidence found."
 
     return best_answer.answer, source
 
