@@ -42,6 +42,7 @@ pytesseract==0.3.10
 |       ├── Elasticsearch Database
 |       └── Azure AI Model
 ├── tests/
-|   └── tba
+|   ├── Data for answering
+|   └── Questionnairs in pdf, docx
 └── README.md
 ```
