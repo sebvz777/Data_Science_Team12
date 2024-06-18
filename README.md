@@ -16,7 +16,7 @@ We will use the files in the `test/` directory to test and present our model. Th
 - `test/Fragebogen_zum_Beispielunternhemen_Recplast_GmbH.xlsx`
 - `test/Fragebogen_zum_Beispielunternhemen_Recplast_GmbH.docx`
 
-The answer files are:
+The answer data files are:
 
 - `test/Richtline_Lenkung_von_Dokumenten_L`
 - `test/Richtline_Lenkung_von_Dokumenten_L`
