@@ -10,8 +10,21 @@ Official code and data of the paper "tba".
 
 ## Data
 
-Using the files in test\ we aim to test and present our model (see Video tba).
-Coming Soon (at latest 21.06.)
+We will use the files in the `test/` directory to test and present our model. The questionnaires include:
+
+- `test/Fragebogen_zum_Beispielunternhemen_Recplast_GmbH.pdf`
+- `test/Fragebogen_zum_Beispielunternhemen_Recplast_GmbH.xlsx`
+- `test/Fragebogen_zum_Beispielunternhemen_Recplast_GmbH.docx`
+
+The answer files are:
+
+- `test/Richtline_Lenkung_von_Dokumenten_L`
+- `test/Richtline_Lenkung_von_Dokumenten_L`
+- `test/Sicherheitsleitlinie_L`
+
+For more details, see the upcoming video (available by June 21).
+
+**Coming Soon:** Expected release by June 21.
 
 ## Installation
 
