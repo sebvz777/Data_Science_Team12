@@ -15,7 +15,7 @@ Coming Soon (at latest 21.06.)
 
 ## Installation
 
-# Requirements
+### Requirements
 
 ```plaintext
 azure_storage==0.37.0
