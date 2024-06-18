@@ -28,11 +28,14 @@ def main():
         answer_column = sys.argv[4]
         xlsx_answer_questions(file_path, sheet_name, question_column)
 
+
     elif file_path.endswith('.png'):
         png_answer_questions(file_path)
 
+
     else:
         print("Unsupported file format. Supported formats are: .pdf, .docx, .xlsx, .png")
+
 
 if __name__ == "__main__":
     main()

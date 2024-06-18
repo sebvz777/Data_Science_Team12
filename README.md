@@ -10,12 +10,35 @@ Official code and data of the paper "tba".
 
 ## Data
 
-Using the files tba and tba we aim to test and present our model (see Video tba).
-Coming Soon (at latest 21.06.)
+We will use the files in the `test/` directory to test and present our model. The questionnaires include:
+
+- `test/Fragebogen_zum_Beispielunternhemen_Recplast_GmbH.pdf`
+- `test/Fragebogen_zum_Beispielunternhemen_Recplast_GmbH.xlsx`
+- `test/Fragebogen_zum_Beispielunternhemen_Recplast_GmbH.docx`
+
+The answer data files are:
+
+- `test/Richtline_Lenkung_von_Dokumenten_L`
+- `test/Richtline_Lenkung_von_Dokumenten_L`
+- `test/Sicherheitsleitlinie_L`
+
+For more details, see the upcoming video (available by July 12).
 
 ## Installation
 
-tba
+### Requirements
+
+```plaintext
+azure_storage==0.37.0
+docx==0.2.4
+elasticsearch==8.14.0
+fitz==0.0.1.dev2
+matplotlib==3.8.2
+opencv_python==4.9.0.80
+openpyxl==3.1.3
+pandas==2.2.2
+pytesseract==0.3.10
+```
 
 ## Folder Structure
 ```plaintext
@@ -30,5 +53,7 @@ tba
 |       ├── Elasticsearch Database
 |       └── Azure AI Model
 ├── tests/
-|   └── tba
+|   ├── Data for answering
+|   └── Questionnairs in pdf, docx, xlsx
 └── README.md
+```
