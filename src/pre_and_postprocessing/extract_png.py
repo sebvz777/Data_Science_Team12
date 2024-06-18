@@ -80,10 +80,10 @@ def get_questions_from_image(image_path):
 
 # Example usage
 image_path = 'questionnaire2.png'
-questions = get_questions_from_image(image_path)
+# questions = get_questions_from_image(image_path)
 
-for question in questions:
-    print(f"Question: {question[0]}, Position: {question[1]}")
+#for question in questions:
+#     print(f"Question: {question[0]}, Position: {question[1]}")
 
 # If needed, display the image with question boxes
 import matplotlib.pyplot as plt
@@ -98,13 +98,11 @@ def display_questions(image_path, questions):
     plt.show()
 
 
-display_questions(image_path, questions)
+# display_questions(image_path, questions)
 
 
 def png_answer_questions(file_path):
-
-    """
-    questions = extract_questions_from_docx(file_path)
+    questions = get_questions_from_image(file_path)
 
     if not questions:
         print(f"No questions found in file: {file_path}.")
@@ -117,4 +115,3 @@ def png_answer_questions(file_path):
             answer, src = get_best_answer(question)
             file.write(f"Question {i}: {question}\n")
             file.write(f"\tAnswer: {answer}, {src}.\n\n")
-    """

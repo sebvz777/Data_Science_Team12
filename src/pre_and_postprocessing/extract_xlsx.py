@@ -35,4 +35,5 @@ def xlsx_answer_questions(file_path, sheet_name, question_column):
             file.write(f"Question {i}: {question}\n")
             file.write(f"\tAnswer: {answer}, {src}.\n\n")
 
+
 # print(f"Fragen wurden erfolgreich extrahiert und Antworten in {output_txt_path} gespeichert.")

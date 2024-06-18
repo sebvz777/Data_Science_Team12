@@ -28,6 +28,7 @@ def main():
         answer_column = sys.argv[4]
         xlsx_answer_questions(file_path, sheet_name, question_column)
 
+
     elif file_path.endswith('.png'):
         png_answer_questions(file_path)
 

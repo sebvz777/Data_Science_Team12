@@ -1,6 +1,6 @@
 import fitz  # PyMuPDF
 import re
-from src.model.run_request import get_best_answer
+from model.run_request import get_best_answer
 
 # Define common German question words
 german_question_words = [
@@ -67,7 +67,7 @@ def find_placeholder_positions(page):
     return text_instances
 
 
-
+"""
 # Example usage
 input_pdf_path = "SECQuestionaire3.pdf"
 output_pdf_path = "output.pdf"
@@ -89,10 +89,11 @@ for i, question in enumerate(questions):
     page.insert_text((x, y), answer, fontsize=12, color=(0, 0, 0))
 
 doc.save(output_pdf_path)
+"""
+
 
 def pdf_answer_questions(file_path):
-    """
-    questions = extract_questions_from_docx(file_path)
+    questions = extract_questions_from_pdf(doc)
 
     if not questions:
         print(f"No questions found in file: {file_path}.")
@@ -105,4 +106,3 @@ def pdf_answer_questions(file_path):
             answer, src = get_best_answer(question)
             file.write(f"Question {i}: {question}\n")
             file.write(f"\tAnswer: {answer}, {src}.\n\n")
-    """

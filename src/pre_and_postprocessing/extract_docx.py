@@ -1,7 +1,7 @@
 from docx import Document
 import re
 import os
-from src.model.run_request import get_best_answer
+from model.run_request import get_best_answer
 
 # Keywords for identifying questions
 default_keywords = [
