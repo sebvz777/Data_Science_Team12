@@ -21,12 +21,12 @@ tba
 ```plaintext
 /project_root
 ├── src/
-│   ├── pre- and postprocessing\
+│   ├── pre- and postprocessing/
 |   |   ├── extract_docx.py
 |   |   ├── extract_xlsx.py
 |   |   ├── extract_pdf.py
 |   |   └── extract_png.py
-│   └── model\
+│   └── model/
 |       ├── Elasticsearch Database
 |       └── Azure AI Model
 ├── tests/
