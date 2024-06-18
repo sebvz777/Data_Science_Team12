@@ -31,64 +31,72 @@ def text_to_sentence_list(text):
 def search_elasticsearch(query):
     # Query Elasticsearch
     response = es.search(
-        index="test5",
+        index="test7",
         body={
             "query": {
                 "match": {
                     "attachment.content": query
                 }
-            }
+            },
+            "size": 10000  # Adjust this to retrieve a large number of documents if needed
         }
     )
     return response
 
+
+# returns two strings
 def get_best_answer(question):
     # Search Elasticsearch for relevant documents
     es_response = search_elasticsearch(question)
     
     # Extract the relevant text from the Elasticsearch response
     hits = es_response['hits']['hits']
-    # Extracting the content from the hits
     all_hits = []
     all_hits_content = []
+    
     for hit in hits:
         content = hit['_source']['attachment']['content']
         source = hit['_source']['filename']
 
         sentences = text_to_sentence_list(content)
-        for sentence in sentences:
-            all_hits_content.append(sentence)
-            all_hits.append((sentence, source))
+        all_hits_content.extend(sentences)
+        all_hits.extend([(sentence, source) for sentence in sentences])
 
+    if not all_hits_content:
+        return "No Documents regarding that Question found.", "src: none"
+
+    best_answer = None
+    highest_confidence = 0
     
-    if all_hits_content:
+    # Process sentences in batches of 5
+    for i in range(0, len(all_hits_content), 5):
+        batch = all_hits_content[i:i+5]
+        
         input = qna.AnswersFromTextOptions(
             question=question,
-            text_documents=all_hits_content
+            text_documents=batch
         )
-    else:
-        return "No Documents regarding that Question found."
 
-    if (all_hits):
         output = qa_client.get_answers_from_text(input, language="de")
-    
-        # Print all answers
-        #for answer in output.answers:
-        #    print(f"Answer: {answer.answer}, Confidence: {answer.confidence}")
 
-        best_answer = [a for a in output.answers if a.confidence > 0][0]
+        # Find the best answer from this batch
+        for answer in output.answers:
+            if answer.confidence > highest_confidence:
+                highest_confidence = answer.confidence
+                best_answer = answer
+
+    # Print the best answer and its source
+    if best_answer and highest_confidence > 0:
         print(u"Question: {}".format(question))
         print(u"Answer: {}".format(best_answer.answer))
         for (content, source) in all_hits:
             if best_answer.answer in content:
                 print(u"Source: {}".format(source))
-
-    if best_answer.confidence < 0.2:
-        return "No answer with high enough confidence found."
-
-    return best_answer.answer, source
+                return best_answer.answer, source
+    else:
+        return "No answer with high enough confidence found.", "src: none"
 
 if __name__ == "__main__":
     #print(search_elasticsearch(query="Ansprechpartner"))
     #question = input("Ask a question: ")
-    answer, source  = get_best_answer("Wer ist der Ansprechpartner?")
+    print(get_best_answer("Wer ist der Ansprechpartner?"))
