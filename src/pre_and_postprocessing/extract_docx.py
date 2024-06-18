@@ -1,7 +1,7 @@
 from docx import Document
 import re
 import os
-from src.model.run_request import get_best_answer
+from model.run_request import get_best_answer
 
 # Keywords for identifying questions
 default_keywords = [
@@ -97,16 +97,16 @@ def docx_answer_questions(file_path):
 
 
 
-original_doc_path2 = r'C:\Users\jansu\OneDrive\Desktop\DN+ DS\DS Group Project\Organ\Data\Data\Fragebogen - Buchfuhrung und Logistiksystem.doc'
-original_doc_path = r'C:\Users\jansu\OneDrive\Desktop\DN+ DS\DS Group Project\Organ\Data\Data\Fragebogen - Buchfuhrung und Logistiksystem.docx'
+#original_doc_path2 = r'C:\Users\jansu\OneDrive\Desktop\DN+ DS\DS Group Project\Organ\Data\Data\Fragebogen - Buchfuhrung und Logistiksystem.doc'
+#original_doc_path = r'C:\Users\jansu\OneDrive\Desktop\DN+ DS\DS Group Project\Organ\Data\Data\Fragebogen - Buchfuhrung und Logistiksystem.docx'
 # Convert .doc to .docx
 
-if ".docx" not in original_doc_path:
-    print("test")
-    original_doc_path = convert_doc_to_docx(original_doc_path2)
+#if ".docx" not in original_doc_path:
+#    print("test")
+#    original_doc_path = convert_doc_to_docx(original_doc_path2)
 
 # Extract questions from the converted .docx file
-questions = extract_questions_docx(original_doc_path, default_keywords)
+# questions = extract_questions_docx(original_doc_path, default_keywords)
 
 # Display the extracted questions
 # for question in questions:

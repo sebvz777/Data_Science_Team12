@@ -1,9 +1,9 @@
 import sys
-from pre_and_postprocessing.extract_docx import extract_questions_docx
-from pre_and_postprocessing.extract_pdf import extract_questions_from_pdf
-from pre_and_postprocessing.extract_png import get_questions_from_image
-from pre_and_postprocessing.extract_xlsx import fill_out_xlsx
-from model.run_request import get_best_answer
+from pre_and_postprocessing.extract_docx import docx_answer_questions
+# from pre_and_postprocessing.extract_pdf import extract_questions_from_pdf
+# from pre_and_postprocessing.extract_png import get_questions_from_image
+# from pre_and_postprocessing.extract_xlsx import fill_out_xlsx
+
 
 def main():
     if len(sys.argv) < 2:
@@ -11,6 +11,7 @@ def main():
         return
 
     file_path = sys.argv[1]
+    print(file_path)
 
     if file_path.endswith('.pdf'):
         pdf_answer_questions(file_path)
@@ -29,7 +30,7 @@ def main():
 
     elif file_path.endswith('.png'):
         png_answer_questions(file_path)
-        
+
     else:
         print("Unsupported file format. Supported formats are: .pdf, .docx, .xlsx, .png")
 
