@@ -22,9 +22,7 @@ The answer files are:
 - `test/Richtline_Lenkung_von_Dokumenten_L`
 - `test/Sicherheitsleitlinie_L`
 
-For more details, see the upcoming video (available by June 21).
-
-**Coming Soon:** Expected release by June 21.
+For more details, see the upcoming video (available by July 12).
 
 ## Installation
 
