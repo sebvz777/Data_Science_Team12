@@ -10,7 +10,7 @@ Official code and data of the paper "tba".
 
 ## Data
 
-Using the files tba and tba we aim to test and present our model (see Video tba).
+Using the files in test\ we aim to test and present our model (see Video tba).
 Coming Soon (at latest 21.06.)
 
 ## Installation
