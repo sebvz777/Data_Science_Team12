@@ -15,7 +15,19 @@ Coming Soon (at latest 21.06.)
 
 ## Installation
 
-tba
+# Requirements
+
+```plaintext
+azure_storage==0.37.0
+docx==0.2.4
+elasticsearch==8.14.0
+fitz==0.0.1.dev2
+matplotlib==3.8.2
+opencv_python==4.9.0.80
+openpyxl==3.1.3
+pandas==2.2.2
+pytesseract==0.3.10
+```
 
 ## Folder Structure
 ```plaintext
@@ -32,3 +44,4 @@ tba
 ├── tests/
 |   └── tba
 └── README.md
+```
