@@ -99,3 +99,22 @@ def display_questions(image_path, questions):
 
 
 display_questions(image_path, questions)
+
+
+def png_answer_questions(file_path):
+
+    """
+    questions = extract_questions_from_docx(file_path)
+
+    if not questions:
+        print(f"No questions found in file: {file_path}.")
+        return
+
+    os.makedirs(os.path.dirname("./answered_questions.txt"), exist_ok=True)
+    with open("./answered_questions.txt", 'w', encoding='utf-8') as file:
+
+        for i, question in enumerate(questions, 1):
+            answer, src = get_best_answer(question)
+            file.write(f"Question {i}: {question}\n")
+            file.write(f"\tAnswer: {answer}, {src}.\n\n")
+    """
