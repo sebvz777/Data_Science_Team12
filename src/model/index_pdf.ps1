@@ -11,4 +11,4 @@ $jsonPayload = @{
 } | ConvertTo-Json -Compress
 
 # Send the data to Elasticsearch using a POST request
-Invoke-RestMethod -Method Post -Uri "http://localhost:9200/test8/_doc/3?pipeline=attachment&pretty" -ContentType "application/json" -Body $jsonPayload
+Invoke-RestMethod -Method Post -Uri "http://localhost:9200/test10/_doc/3?pipeline=attachment&pretty" -ContentType "application/json" -Body $jsonPayload
