@@ -1,6 +1,7 @@
 from docx import Document
-from win32com import client as wc
+import re
 import os
+from src.model.run_request import get_best_answer
 
 # Keywords for identifying questions
 default_keywords = [
@@ -53,6 +54,49 @@ def extract_questions_docx(doc_path, keywords):
                             avoid_dups.add(cell.text)
 
     return questions
+
+def extract_questions_from_docx(file_path):
+    # Load the DOCX file
+    document = Document(file_path)
+    
+    questions = []
+
+    if not os.path.exists(file_path):
+        print(f"Error: The file {file_path} does not exist.")
+        return []
+
+    # Iterate through all paragraphs in the document
+    for paragraph in document.paragraphs:
+        # Get the text of the paragraph and strip leading/trailing whitespace
+        text = paragraph.text.strip()
+        if text:
+            # Use regex to find all questions in the paragraph
+            found_questions = re.findall(r'[^.?!]*\?+', text)
+            questions.extend(found_questions)
+    
+    return questions
+
+def docx_answer_questions(file_path):
+    questions = extract_questions_from_docx(file_path)
+
+    if not questions:
+        print(f"No questions found in file: {file_path}.")
+        return
+    
+    for question in questions:
+        answer = get_best_answer(questions)
+        os.makedirs(os.path.dirname("./answered_questions.txt"), exist_ok=True)
+    
+        with open("./answered_questions.txt", 'w', encoding='utf-8') as file:
+            for i, question in enumerate(questions, 1):
+                answer, src = get_best_answer(question)
+                file.write(f"Question {i}: {question}\n")
+                file.write(f"\tAnswer: {answer}, {src}.\n\n")
+
+
+    
+    
+
 
 
 original_doc_path2 = r'C:\Users\jansu\OneDrive\Desktop\DN+ DS\DS Group Project\Organ\Data\Data\Fragebogen - Buchfuhrung und Logistiksystem.doc'
