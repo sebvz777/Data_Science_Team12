@@ -55,6 +55,6 @@ pytesseract==0.3.10
 ├── tests/
 |   ├── Data for answering
 |   ├── Questionnairs in pdf, docx, xlsx
-|   └── 
+|   └── answered_questions.txt
 └── README.md
 ```
