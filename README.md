@@ -1,6 +1,6 @@
 # Automated Questionnaire Filling
 
-Official code and data of the paper "tba".
+Official code and data of the paper "Utilizing Elasticsearch and Azure AI for Efficient Questionnaire Completion".
 
 ## Overview
 
@@ -54,6 +54,7 @@ pytesseract==0.3.10
 |       └── Azure AI Model
 ├── tests/
 |   ├── Data for answering
-|   └── Questionnairs in pdf, docx, xlsx
+|   ├── Questionnairs in pdf, docx, xlsx
+|   └── answered_questions.txt
 └── README.md
 ```
