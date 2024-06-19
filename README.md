@@ -54,6 +54,7 @@ pytesseract==0.3.10
 |       └── Azure AI Model
 ├── tests/
 |   ├── Data for answering
-|   └── Questionnairs in pdf, docx, xlsx
+|   ├── Questionnairs in pdf, docx, xlsx
+|   └── 
 └── README.md
 ```
