@@ -31,7 +31,7 @@ def text_to_sentence_list(text):
 def search_elasticsearch(query):
     # Query Elasticsearch
     response = es.search(
-        index="test10",
+        index="test11",
         body={
             "query": {
                 "match": {

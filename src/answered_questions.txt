@@ -17,7 +17,7 @@ Question 6: Wie oft wird die Risikoanalyse überprüft und aktualisiert?
 	Answer: 3.4 Dokumentation   Die Risikoanalyse wird jährlich sowie anlassbezogen überprüft und aktualisiert., C:\Users\rober\Documents\Data_Sience_Team12\tests\Risikoanalyse_L.pdf.
 
 Question 7: Welche Optionen sind zur Risikobehandlung möglich?
-	Answer: Verantwortlich für die Risikoeinschätzung und Auswahl der  Risikobehandlungsoptionen ist der jeweilige Risikoeigentümer, ggf in Abstimmung mit  den Fachabteilungen., C:\Users\rober\Documents\Data_Sience_Team12\tests\Risikoanalyse_L.pdf.
+	Answer: 3.6 Risikobehandlung   Zur Risikobehandlung sind grundsätzlich die folgenden Optionen möglich:   - Reduktion: Risiken werden reduziert durch die Umsetzung weiterer Maßnahmen;  durch diese Maßnahmen kann sowohl die Eintrittshäufigkeit gesenkt oder die  Auswirkungen reduziert werden   - Akzeptanz: Restrisiken können von der Geschäftsführung akzeptiert werden; hierzu ist  es erforderlich, dass die Geschäftsführung fundiert, vollständig, transparent und  verständlich über die Restrisiken samt Folgen informiert wird   - Transfer: Risiken können auch transferiert werden, etwa an eine Versicherung   - Vermeidung: Risiken können auch aus dem Geltungsbereich des  Informationsverbundes ausgeschlossen werden., C:\Users\rober\Documents\Data_Sience_Team12\tests\Risikoanalyse_L.pdf.
 
 Question 8: Was ist der Geltungsbereich der Richtlinie zur Risikoanalyse?
 	Answer: 3.3 Anwendungsbereich   Eine Risikoanalyse ist für alle Zielobjekte erforderlich, die - einen hohen oder sehr  hohen Schutzbedarf in mindestens einem der drei Grundwerte Vertraulichkeit, Integrität  oder Verfügbarkeit haben oder - mit den existierenden Bausteinen des IT- Grundschutzes nicht hinreichend abgebildet (modelliert) werden können oder - in  Einsatzszenarien (Umgebung, Anwendung) betrieben werden, die im Rahmen des IT-  Grundschutzes nicht vorgesehen sind., C:\Users\rober\Documents\Data_Sience_Team12\tests\Risikoanalyse_L.pdf.
@@ -26,22 +26,22 @@ Question 9: Wer ist der Ansprechpartner zur Richtlinie der Risikoanalyse?
 	Answer: 1.3 Ansprechpartner   Ihr Ansprechpartner zu allen Fragen dieser Richtlinie:  Informationssicherheitsbeauftragter (ISB)., C:\Users\rober\Documents\Data_Sience_Team12\tests\Sicherheitsleitlinie_L.pdf.
 
 Question 10: Wann erfolgte die letzte Risikoanalyse?
-	Answer: Die Geschäftsleitung muss das ISMS mindestens einmal  jährlich überprüfen (bzw immer im Falle von erheblichen Änderungen) und freigeben., C:\Users\rober\Documents\Data_Sience_Team12\tests\Sicherheitsleitlinie_L.pdf.
+	Answer: 3.4 Dokumentation   Die Risikoanalyse wird jährlich sowie anlassbezogen überprüft und aktualisiert., C:\Users\rober\Documents\Data_Sience_Team12\tests\Risikoanalyse_L.pdf.
 
 Question 11: Wie werden Maßnahmen die im Rahmen der Risikobehandlung umgesetzt werden sollen verfolgt?
-	Answer: 3.7 Umsetzungsplan     Maßnahmen, die im Rahmen der Risikobehandlung umgesetzt werden sollen, werden in  einem Umsetzungsplan nachverfolgt., C:\Users\rober\Documents\Data_Sience_Team12\tests\Risikoanalyse_L.pdf.
+	Answer: 3.6 Risikobehandlung   Zur Risikobehandlung sind grundsätzlich die folgenden Optionen möglich:   - Reduktion: Risiken werden reduziert durch die Umsetzung weiterer Maßnahmen;  durch diese Maßnahmen kann sowohl die Eintrittshäufigkeit gesenkt oder die  Auswirkungen reduziert werden   - Akzeptanz: Restrisiken können von der Geschäftsführung akzeptiert werden; hierzu ist  es erforderlich, dass die Geschäftsführung fundiert, vollständig, transparent und  verständlich über die Restrisiken samt Folgen informiert wird   - Transfer: Risiken können auch transferiert werden, etwa an eine Versicherung   - Vermeidung: Risiken können auch aus dem Geltungsbereich des  Informationsverbundes ausgeschlossen werden., C:\Users\rober\Documents\Data_Sience_Team12\tests\Risikoanalyse_L.pdf.
 
 Question 12: Welche Dokumente und Aufzeichnungen sind gelenkt?
 	Answer: 2.2 Grundsatz   Grundsätzlich werden alle Dokumente und Aufzeichnungen gelenkt., C:\Users\rober\Documents\Data_Sience_Team12\tests\Richtline_Lenkung_von_Dokumenten_L.pdf.
 
 Question 13: Welcher Lebenszyklus wird für Dokumente definiert?
-	Answer: Dabei sind  Dokumente und Aufzeichnungen wie folgt definiert:   - Dokumente sind Vorgabendokumente, etwa Richtlinien, Verfahrensanweisungen,  Konzepte, Arbeitsanweisungen   - Aufzeichnungen hingegen sind Dokumente, die einem Nachweis dienen, etwa  ausgefüllte Vorlagen   2.3 Lebenszyklus   Für Dokumente wird folgender Lebenszyklus definiert:   - Entwurf: Ein Dokument wird vom Ersteller erstellt, es ist noch nicht freigegeben   - Review: Ein vom Ersteller fertiggestelltes Dokument wird vom Prüfer geprüft, es ist  noch nicht freigegeben   - Freigabe: Nachdem der Freigebende ein Dokument formal freigegeben hat, ist es gültig  und kann verwendet werden   - Ungültig: Dokumente, die nicht mehr verwendet werden sollen, werden ungültig   - Archiviert: Ungültige Dokumente werden archiviert   Für Aufzeichnungen gilt kein besonderer Lebenszyklus., C:\Users\rober\Documents\Data_Sience_Team12\tests\Richtline_Lenkung_von_Dokumenten_L.pdf.
+	Answer: 2.3 Lebenszyklus   Für Dokumente wird folgender Lebenszyklus definiert:   - Entwurf: Ein Dokument wird vom Ersteller erstellt, es ist noch nicht freigegeben   - Review: Ein vom Ersteller fertiggestelltes Dokument wird vom Prüfer geprüft, es ist  noch nicht freigegeben   - Freigabe: Nachdem der Freigebende ein Dokument formal freigegeben hat, ist es gültig  und kann verwendet werden   - Ungültig: Dokumente, die nicht mehr verwendet werden sollen, werden ungültig   - Archiviert: Ungültige Dokumente werden archiviert., C:\Users\rober\Documents\Data_Sience_Team12\tests\Richtline_Lenkung_von_Dokumenten_L.pdf.
 
 Question 14: Welche Dateiformat haben Ihre Dokumente grundsätzlich?
-	Answer: Als wichtigste zu beachtende Rahmenbedingungen gelten dabei:   o §§ 238-239, 257-261 Handelsgesetzbuch (HGB)   o § 91 Abs 2 Aktiengesetz (AktG) ODER GmbHG §43 Abs 1 GmbH-Gesetz (GmbHG)   o Datenschutz-Grundverordnung (DSGVO)   o Bundesdatenschutzgesetz (BDSG)   o Grundsätze zur ordnungsmäßigen Führung und Aufbewahrung von Büchern,   Aufzeichnungen und Unterlagen in elektronischer Form sowie zum Datenzugri    (GoBD)   o Betriebsverfassungsgesetz (BVerfG)   o ergänzende Kundenanforderungen   Informationssicherheit unterstützt damit auch die Einhaltung von Gesetzen und  Vorschriften., C:\Users\rober\Documents\Data_Sience_Team12\tests\Sicherheitsleitlinie_L.pdf.
+	Answer: Als wichtigste zu beachtende Rahmenbedingungen gelten dabei:   o §§ 238-239, 257-261 Handelsgesetzbuch (HGB)   o § 91 Abs 2 Aktiengesetz (AktG) ODER GmbHG §43 Abs 1 GmbH-Gesetz (GmbHG)   o Datenschutz-Grundverordnung (DSGVO)   o Bundesdatenschutzgesetz (BDSG)   o Grundsätze zur ordnungsmäßigen Führung und Aufbewahrung von Büchern,   Aufzeichnungen und Unterlagen in elektronischer Form sowie zum Datenzugri    (GoBD)   o Betriebsverfassungsgesetz (BVerfG)   o ergänzende Kundenanforderungen., C:\Users\rober\Documents\Data_Sience_Team12\tests\Sicherheitsleitlinie_L.pdf.
 
 Question 15: Welcher Lebenszyklus gilt für Aufzeichnungen?
-	Answer: Dabei sind  Dokumente und Aufzeichnungen wie folgt definiert:   - Dokumente sind Vorgabendokumente, etwa Richtlinien, Verfahrensanweisungen,  Konzepte, Arbeitsanweisungen   - Aufzeichnungen hingegen sind Dokumente, die einem Nachweis dienen, etwa  ausgefüllte Vorlagen   2.3 Lebenszyklus   Für Dokumente wird folgender Lebenszyklus definiert:   - Entwurf: Ein Dokument wird vom Ersteller erstellt, es ist noch nicht freigegeben   - Review: Ein vom Ersteller fertiggestelltes Dokument wird vom Prüfer geprüft, es ist  noch nicht freigegeben   - Freigabe: Nachdem der Freigebende ein Dokument formal freigegeben hat, ist es gültig  und kann verwendet werden   - Ungültig: Dokumente, die nicht mehr verwendet werden sollen, werden ungültig   - Archiviert: Ungültige Dokumente werden archiviert   Für Aufzeichnungen gilt kein besonderer Lebenszyklus., C:\Users\rober\Documents\Data_Sience_Team12\tests\Richtline_Lenkung_von_Dokumenten_L.pdf.
+	Answer: Für Aufzeichnungen gilt kein besonderer Lebenszyklus., C:\Users\rober\Documents\Data_Sience_Team12\tests\Richtline_Lenkung_von_Dokumenten_L.pdf.
 
 Question 16: Von wem werden Dokumente vor Freigabe geprüft?
 	Answer: 2.4 Prüfung und Freigabe   Dokumente werden vor der Freigabe von einem Prüfer geprüft, der nicht der Ersteller  des Dokumentes ist., C:\Users\rober\Documents\Data_Sience_Team12\tests\Richtline_Lenkung_von_Dokumenten_L.pdf.
@@ -50,13 +50,13 @@ Question 17: Wo ist der Ablageort für Dokumente angegeben?
 	Answer: 2.5 Ablageort   Für jedes Dokument ist angegeben, wo dieses abgelegt ist., C:\Users\rober\Documents\Data_Sience_Team12\tests\Richtline_Lenkung_von_Dokumenten_L.pdf.
 
 Question 18: Gemäß welches Klassifizierungsschemas werden Dokumente klassifiziert?
-	Answer: 2.7 Klassifizierung   Dokumente werden gem des folgenden Klassifizierungsschemas klassifiziert:   - S1 ö entlich: ö entlich verfügbare Informationen   - S2 intern: Informationen, die nur RECPLAST-intern zu nutzen sind   - S3 geheim: Informationen, die selbst innerhalb der RECPLAST nur einem  eingeschränkten Personenkreis zugänglich gemacht werden dürfen    Bsp., C:\Users\rober\Documents\Data_Sience_Team12\tests\Richtline_Lenkung_von_Dokumenten_L.pdf.
+	Answer: 2.7 Klassifizierung   Dokumente werden gem des folgenden Klassifizierungsschemas klassifiziert:   - S1 ö entlich: ö entlich verfügbare Informationen   - S2 intern: Informationen, die nur RECPLAST-intern zu nutzen sind   - S3 geheim: Informationen, die selbst innerhalb der RECPLAST nur einem  eingeschränkten Personenkreis zugänglich gemacht werden dürfen   Bsp., C:\Users\rober\Documents\Data_Sience_Team12\tests\Richtline_Lenkung_von_Dokumenten_L.pdf.
 
 Question 19: Welche Personen dürfen Änderungen an einem Dokument vornehmen?
-	Answer: für Dokument-Klassen:   - S1: Webseiten   - S2: RECPLAST-Telefonbuch   - S3: Personaldaten, Wirtschaftspläne, Konstruktionszeichnungen     2.8 Änderungsmanagement   Änderungen an einem Dokument darf nur der Dokument-Eigentümer vornehmen oder,  sofern ein Wiki zum Einsatz kommt, freigeben., C:\Users\rober\Documents\Data_Sience_Team12\tests\Richtline_Lenkung_von_Dokumenten_L.pdf.
+	Answer: 2.8 Änderungsmanagement   Änderungen an einem Dokument darf nur der Dokument-Eigentümer vornehmen oder,  sofern ein Wiki zum Einsatz kommt, freigeben., C:\Users\rober\Documents\Data_Sience_Team12\tests\Richtline_Lenkung_von_Dokumenten_L.pdf.
 
 Question 20: Welche Personen dürfen keine Änderungen an einem Dokument vornehmen?
-	Answer: für Dokument-Klassen:   - S1: Webseiten   - S2: RECPLAST-Telefonbuch   - S3: Personaldaten, Wirtschaftspläne, Konstruktionszeichnungen     2.8 Änderungsmanagement   Änderungen an einem Dokument darf nur der Dokument-Eigentümer vornehmen oder,  sofern ein Wiki zum Einsatz kommt, freigeben., C:\Users\rober\Documents\Data_Sience_Team12\tests\Richtline_Lenkung_von_Dokumenten_L.pdf.
+	Answer: 2.8 Änderungsmanagement   Änderungen an einem Dokument darf nur der Dokument-Eigentümer vornehmen oder,  sofern ein Wiki zum Einsatz kommt, freigeben., C:\Users\rober\Documents\Data_Sience_Team12\tests\Richtline_Lenkung_von_Dokumenten_L.pdf.
 
 Question 21: Wie lange werden Dokumente Aufbewahrt?
 	Answer: 2.9 Aufbewahrungsfristen   Dokumente werden 10 Jahre aufbewahrt., C:\Users\rober\Documents\Data_Sience_Team12\tests\Richtline_Lenkung_von_Dokumenten_L.pdf.
@@ -71,8 +71,35 @@ Question 24: Was passiert mit nicht mehr gültigen Dokumenten?
 	Answer: Abgelöste Dokumente werden  zunächst als ungültig gekennzeichnet und anschließend archiviert., C:\Users\rober\Documents\Data_Sience_Team12\tests\Richtline_Lenkung_von_Dokumenten_L.pdf.
 
 Question 25: Wie oft werden die Vorgabedokumente überprüft?
-	Answer: 2.11 Überprüfung   Alle Vorgabedokumente werden jährlich überprüft und ggf., C:\Users\rober\Documents\Data_Sience_Team12\tests\Richtline_Lenkung_von_Dokumenten_L.pdf.
+	Answer: 2.11 Überprüfung   Alle Vorgabedokumente werden jährlich überprüft und ggf aktualisiert., C:\Users\rober\Documents\Data_Sience_Team12\tests\Richtline_Lenkung_von_Dokumenten_L.pdf.
 
 Question 26: Um wieviel Uhr machen Sie Mittagspause?
-	Answer: Dies gilt sowohl für interne als auch externe Parteien., C:\Users\rober\Documents\Data_Sience_Team12\tests\Sicherheitsleitlinie_L.pdf.
+	Answer: Die Richtlinie gilt für die zuständigen Mitarbeiter., C:\Users\rober\Documents\Data_Sience_Team12\tests\Risikoanalyse_L.pdf.
+
+Question 27: Welche Risikobehandlungsoptionen sind möglich?
+	Answer: 3.6 Risikobehandlung   Zur Risikobehandlung sind grundsätzlich die folgenden Optionen möglich:   - Reduktion: Risiken werden reduziert durch die Umsetzung weiterer Maßnahmen;  durch diese Maßnahmen kann sowohl die Eintrittshäufigkeit gesenkt oder die  Auswirkungen reduziert werden   - Akzeptanz: Restrisiken können von der Geschäftsführung akzeptiert werden; hierzu ist  es erforderlich, dass die Geschäftsführung fundiert, vollständig, transparent und  verständlich über die Restrisiken samt Folgen informiert wird   - Transfer: Risiken können auch transferiert werden, etwa an eine Versicherung   - Vermeidung: Risiken können auch aus dem Geltungsbereich des  Informationsverbundes ausgeschlossen werden., C:\Users\rober\Documents\Data_Sience_Team12\tests\Risikoanalyse_L.pdf.
+
+Question 28: Welche Risikobehandlungsoption bevorzugt die RECPLAST GmbH?
+	Answer: Die RECPLAST GmbH favorisiert die Option „Reduktion“., C:\Users\rober\Documents\Data_Sience_Team12\tests\Risikoanalyse_L.pdf.
+
+Question 29: Was für Risikokategorien sind definiert?
+	Answer: Die Risikokategorien sind dazu wie folgt definiert:   - gering: Die bereits umgesetzten oder zumindest im Sicherheitskonzept vorgesehenen  Sicherheitsmaßnahmen bieten einen ausreichenden Schutz   - mittel: Die bereits umgesetzten oder zumindest im Sicherheitskonzept vorgesehenen  Sicherheitsmaßnahmen reichen möglicherweise nicht aus   - hoch: Die bereits umgesetzten oder zumindest im Sicherheitskonzept vorgesehenen  Sicherheitsmaßnahmen bieten keinen ausreichenden Schutz vor der jeweiligen  Gefährdung   - sehr hoch: Die bereits umgesetzten oder zumindest im Sicherheitskonzept  vorgesehenen Sicherheitsmaßnahmen bieten keinen ausreichenden Schutz vor der  jeweiligen Gefährdung., C:\Users\rober\Documents\Data_Sience_Team12\tests\Risikoanalyse_L.pdf.
+
+Question 30: Ist eine Risikoakzeptanz definiert?
+	Answer: Es wird die folgende Risikoakzeptanz definiert:   - Risiken der Kategorie „gering“ werden grundsätzlich pauschal akzeptiert; für diese  Risiken ist keine weitere Risikobehandlung erforderlich, gleichwohl werden diese  Risiken in der jährlichen Aktualisierung überprüft   - Risiken der Kategorien „mittel“, „hoch“ und „sehr hoch“ werden in die  Risikobehandlung überführt., C:\Users\rober\Documents\Data_Sience_Team12\tests\Risikoanalyse_L.pdf.
+
+Question 31: Was für Scahdenskategorien sind definiert?
+	Answer: 3.5.2 Schadenshöhe   Zur Schadenshöhe werden die folgenden Kategorien definiert:   - vernachlässigbar: Die Schadensauswirkungen sind gering und können vernachlässigt  werden, hier: unter 5000 Euro   - begrenzt: Die Schadensauswirkungen sind begrenzt und überschaubar, hier: 5001  Euro bis 50000 Euro   - beträchtlich: Die Schadensauswirkungen können beträchtlich sein, hier: 50001 bis  500000 Euro   - existenzbedrohend: Die Schadensauswirkungen können ein existenziell bedrohliches,  katastrophales Ausmaß erreichen, hier: mehr als 501000 Euro., C:\Users\rober\Documents\Data_Sience_Team12\tests\Risikoanalyse_L.pdf.
+
+Question 32: Sind Risikohäufigkeiten im Rahmen des Risikomanagements definiert?
+	Answer: 3.5 Risikobewertung   Die Risikobewertung setzt sich aus Eintrittshäufigkeiten und Schadenshöhe  zusammen, die für einzelne Schadensszenarien betrachtet werden., C:\Users\rober\Documents\Data_Sience_Team12\tests\Risikoanalyse_L.pdf.
+
+Question 33: In welcher Form liegt die Risikoanalyse vor?
+	Answer: Die Risikoanalyse liegt dokumentiert vor., C:\Users\rober\Documents\Data_Sience_Team12\tests\Risikoanalyse_L.pdf.
+
+Question 34: Wer kümmert sich primär um die IT-Sicherheit?
+	Answer: Der Informationssicherheitsbeauftragte berät die  Geschäftsführung und die Fachbereiche in Fragen der Informationssicherheit und  arbeitet mit der IT-Leitung zusammen., C:\Users\rober\Documents\Data_Sience_Team12\tests\Sicherheitsleitlinie_L.pdf.
+
+Question 35: Was sind die Aufgaben des Informationssicherheitsbeauftragten?
+	Answer: Der Informationssicherheitsbeauftragte berät die  Geschäftsführung und die Fachbereiche in Fragen der Informationssicherheit und  arbeitet mit der IT-Leitung zusammen., C:\Users\rober\Documents\Data_Sience_Team12\tests\Sicherheitsleitlinie_L.pdf.
 
