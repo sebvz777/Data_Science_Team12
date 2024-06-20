@@ -1,0 +1,48 @@
+Frage 1 sinnvolle Antwort TP
+Frage 2 sinnvolle Antwort TP
+Frage 3 sinnvolle Antwort TP
+Frage 4 sinnvolle Antwort TP
+Frage 5 FAKE erkannt TN
+Frage 6 sinnvolle Antwort TP
+Frage 7 sinnvolle Antwort TP
+Frage 8 sinnvolle Antwort TP
+Frage 9 sinnvolle Antwort TP
+Frage 10 FAKE nicht erkannt FP (aber trotzdem passende Antwort!)
+Frage 11 falsche Antwort FN
+Frage 12 sinnvolle Antwort TP
+Frage 13 sinnvolle Antwort TP
+Frage 14 FAKE nicht erkannt FP
+Frage 15 sinnvolle Antwort TP
+Frage 16 sinnvolle Antwort TP
+Frage 17 sinnvolle Antwort (Etwas schwierig definierte Frage, aber ich denke richtig extrahiert was gewollt ist) TP
+Frage 18 sinnvolle Antwort (einzelne Buchstaben verloren gegangen) TP
+Frage 19 sinnvolle Antwort TP
+Frage 20 FAKE nicht erkannt FP (aber trotzdem sinnvole Antwort!)
+Frage 21 sinnvolle Antwort TP
+Frage 22 falsche Antwort FN
+Frage 23 FAKE nicht erkannt FP
+Frage 24 sinnvolle Antwort TP
+Frage 25 sinnvolle Antwort TP
+Frage 26 FAKE nicht erkannt FP
+Frage 27 hatten wir schon siehe frage 7 frage nur anders fromuliert... TP
+Frage 28 TP
+Frage 29 TP
+Frage 30 TP
+Frage 31 TP
+Frage 32 Wsl TP wenn man ultra streng wäre maybe FN
+Frage 33 TP
+Frage 34 TP
+Frage 35 TP
+
+
+Definition False Positives…
+
+True Positives (TP): Dies sind Fälle, in denen eine reale Frage korrekt erkannt und sinnvoll beantwortet wurde.
+False Positives (FP): Dies sind Fälle, in denen eine Fake-Frage fälschlicherweise als reale Frage erkannt und mit einer sinnvollen Antwort versehen wurde.
+True Negatives (TN): Dies sind Fälle, in denen eine Fake-Frage korrekt als solche erkannt und entsprechend unsinnig beantwortet oder ignoriert wurde.
+False Negatives (FN): Dies sind Fälle, in denen eine reale Frage fälschlicherweise als Fake-Frage erkannt wurde und somit unsinnig beantwortet oder ignoriert wurde.
+
+True Positives: 27
+False Negatives: 2
+True Negatives: 1
+False Positives: 5
