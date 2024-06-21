@@ -2,7 +2,7 @@ import sys
 from pre_and_postprocessing.extract_docx import docx_answer_questions
 # from pre_and_postprocessing.extract_pdf import extract_questions_from_pdf
 # from pre_and_postprocessing.extract_png import get_questions_from_image
-# from pre_and_postprocessing.extract_xlsx import fill_out_xlsx
+from pre_and_postprocessing.extract_xlsx import xlsx_answer_questions
 
 
 def main():

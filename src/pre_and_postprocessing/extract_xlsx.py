@@ -3,7 +3,7 @@ import os
 import pandas as pd
 import openpyxl
 
-from src.model.run_request import get_best_answer
+from model.run_request import get_best_answer
 
 
 # Funktion zum Extrahieren der Fragen
@@ -31,8 +31,9 @@ def xlsx_answer_questions(file_path, sheet_name, question_column):
     with open("./answered_questions.txt", 'w', encoding='utf-8') as file:
 
         for i, question in enumerate(questions, 1):
-            answer, src = get_best_answer(question)
-            file.write(f"Question {i}: {question}\n")
+            print(question[2])
+            answer, src = get_best_answer(question[2])
+            file.write(f"Question {i}: {question[2]}\n")
             file.write(f"\tAnswer: {answer}, {src}.\n\n")
 
 
