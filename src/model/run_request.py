@@ -79,14 +79,20 @@ def get_best_answer(question):
             text_documents=batch
         )
 
+        print("getting output for batch: \n")
+        for hits in batch:
+            print(hits + "\n")
         output = qa_client.get_answers_from_text(input, language="de")
+        print("batch completed \n")
 
         # Find the best answer from this batch
         for answer in output.answers:
+            print("getting stuck on answer extraction")
             if answer.confidence > highest_confidence:
                 highest_confidence = answer.confidence
                 best_answer = answer
 
+    print("getting here")
     # Print the best answer and its source
     if best_answer and highest_confidence > 0:
         print(u"Question: {}".format(question))
@@ -102,4 +108,4 @@ def get_best_answer(question):
 if __name__ == "__main__":
     #print(search_elasticsearch(query="Ansprechpartner"))
     #question = input("Ask a question: ")
-    print(get_best_answer("Wer ist der Ansprechpartner?"))
+    print(get_best_answer("Wie oft wird die Risikoanalsye durchgeführt?"))
