@@ -46,6 +46,7 @@ def search_elasticsearch(query):
 
 # returns two strings
 def get_best_answer(question):
+    print("Get Answer started \n")
     # Search Elasticsearch for relevant documents
     es_response = search_elasticsearch(question)
     
@@ -68,6 +69,7 @@ def get_best_answer(question):
     best_answer = None
     highest_confidence = 0
     
+    print("Starting the querries \n")
     # Process sentences in batches of 5
     for i in range(0, len(all_hits_content), 5):
         batch = all_hits_content[i:i+5]
@@ -89,6 +91,7 @@ def get_best_answer(question):
     if best_answer and highest_confidence > 0:
         print(u"Question: {}".format(question))
         print(u"Answer: {}".format(best_answer.answer))
+        print(u"Confidence: {}".format(best_answer.confidence))
         for (content, source) in all_hits:
             if best_answer.answer in content:
                 print(u"Source: {}".format(source))
